@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-stripe-webhooks",
+    "name": "stay-native/laravel-stripe-webhooks",
     "description": "Handle stripe webhooks in a Laravel application",
     "keywords": [
         "spatie",
@@ -7,6 +7,10 @@
     ],
     "homepage": "https://github.com/spatie/laravel-stripe-webhooks",
     "license": "MIT",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/Stay-Native/laravel-webhook-client"
+    }],
     "authors": [
         {
             "name": "Freek Van der Herten",
@@ -18,9 +22,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4",
+        "php": "^7.3",
         "illuminate/support": "^6.0|^7.0|^8.0",
-        "spatie/laravel-webhook-client": "^2.0",
+        "stay-native/laravel-webhook-client": "dev-master",
         "stripe/stripe-php": "^5.2|^6.0|^7.0|^7.51"
     },
     "require-dev": {
